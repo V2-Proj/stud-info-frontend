@@ -44,7 +44,7 @@ const StudentForm = ({
         updateStudent(student);
       } else {
         //student
-        addStudent();
+        addStudent(student);
       }
 
       setName("");
