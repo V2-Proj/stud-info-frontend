@@ -34,7 +34,6 @@ const StudentForm = ({
 
       const student = {
         id: selectedStudent ? selectedStudent.id : Date.now(),
-        name,
         age,
         email,
         fees,
@@ -44,7 +43,7 @@ const StudentForm = ({
         updateStudent(student);
       } else {
         //student
-        addStudent();
+        addStudent(student);
       }
 
       setName("");
