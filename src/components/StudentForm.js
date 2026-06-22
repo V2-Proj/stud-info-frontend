@@ -43,8 +43,7 @@ const StudentForm = ({
       if (selectedStudent) {
         updateStudent(student);
       } else {
-        //student
-        addStudent();
+        addStudent(student);
       }
 
       setName("");
