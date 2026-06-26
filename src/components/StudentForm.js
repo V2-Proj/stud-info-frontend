@@ -34,6 +34,7 @@ const StudentForm = ({
 
       const student = {
         id: selectedStudent ? selectedStudent.id : Date.now(),
+        name,
         age,
         email,
         fees,
